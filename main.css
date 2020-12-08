@@ -33,7 +33,90 @@ img {
 		opacity: 0;
 	}
 }
-
+@-moz-keyframes blinkbg  /* Firefox */
+{
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0.35;
+	}
+	81% {
+		opacity: 0.8;
+	}
+	82% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes blinkbg  /* Safari and Chrome */
+{
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0.35;
+	}
+	81% {
+		opacity: 0.8;
+	}
+	82% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-o-keyframes blinkbg  /* Opera */
+{
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0.35;
+	}
+	81% {
+		opacity: 0.8;
+	}
+	82% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-ms-keyframes blinkbg  /* IE */
+{
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0.35;
+	}
+	81% {
+		opacity: 0.8;
+	}
+	82% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
 #creep {
 	position:absolute;
 	width:600px;
